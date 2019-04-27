@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="calcViewModel"
+            type="com.example.calclivedataandbind.viewModel.CalcViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/result_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/result_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_result"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/calc_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/result_title"
+                android:text="@{calcViewModel.result}"
+                android:textSize="30sp"
+                tools:text="4" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/first_value"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_group"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@={calcViewModel.first}"
+            android:textSize="30sp"
+            tools:text="1" />
+
+        <TextView
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_group"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/first_value"
+            android:text="@string/plus"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/second_value"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_group"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/plus"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@={calcViewModel.second}"
+            android:textSize="30sp"
+            tools:text="3" />
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CalcLiveDataAndBind</string>
+    <string name="plus">+</string>
+    <string name="calc_result">合計: </string>
+</resources>
