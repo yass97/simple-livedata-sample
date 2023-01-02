@@ -1,4 +1,4 @@
-package com.example.calclivedataandbind.viewModel
+package com.example.calclivedataandbind
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

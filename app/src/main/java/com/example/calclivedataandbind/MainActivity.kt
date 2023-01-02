@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.calclivedataandbind.databinding.ActivityMainBinding
-import com.example.calclivedataandbind.viewModel.ViewModel
 
 class MainActivity : AppCompatActivity() {
 
