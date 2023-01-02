@@ -1,10 +1,9 @@
-package com.example.calclivedataandbind.view
+package com.example.calclivedataandbind
 
 import android.arch.lifecycle.ViewModelProviders
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.example.calclivedataandbind.R
 import com.example.calclivedataandbind.databinding.ActivityMainBinding
 import com.example.calclivedataandbind.viewModel.CalcViewModel
 
