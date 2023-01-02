@@ -3,7 +3,7 @@ package com.example.calclivedataandbind.viewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class CalcViewModel : ViewModel() {
+class ViewModel : ViewModel() {
 
     val first = MutableLiveData<String>()
     val second = MutableLiveData<String>()

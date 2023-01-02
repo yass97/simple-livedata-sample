@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.example.calclivedataandbind.databinding.ActivityMainBinding
-import com.example.calclivedataandbind.viewModel.CalcViewModel
+import com.example.calclivedataandbind.viewModel.ViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         DataBindingUtil.setContentView(this, R.layout.activity_main)
     }
 
-    private val viewModel: CalcViewModel by lazy {
-        ViewModelProvider(this)[CalcViewModel::class.java]
+    private val viewModel: ViewModel by lazy {
+        ViewModelProvider(this)[ViewModel::class.java]
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
