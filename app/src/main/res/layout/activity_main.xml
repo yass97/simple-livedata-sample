@@ -9,7 +9,7 @@
             type="com.example.calclivedataandbind.viewModel.CalcViewModel" />
     </data>
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -64,6 +64,6 @@
             android:textSize="30sp"
             tools:text="4" />
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </layout>
