@@ -5,7 +5,7 @@
     <data>
 
         <variable
-            name="calcViewModel"
+            name="viewModel"
             type="com.example.calclivedataandbind.viewModel.CalcViewModel" />
     </data>
 
@@ -22,7 +22,7 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="4"
-            android:text="@={calcViewModel.first}"
+            android:text="@={viewModel.first}"
             android:textSize="30sp"
             tools:text="1" />
 
@@ -42,7 +42,7 @@
             android:gravity="center"
             android:inputType="number"
             android:maxLength="4"
-            android:text="@={calcViewModel.second}"
+            android:text="@={viewModel.second}"
             android:textSize="30sp"
             tools:text="3" />
 
@@ -59,7 +59,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@{calcViewModel.result}"
+            android:text="@{viewModel.result}"
             android:textColor="@color/colorAccent"
             android:textSize="30sp"
             tools:text="4" />
