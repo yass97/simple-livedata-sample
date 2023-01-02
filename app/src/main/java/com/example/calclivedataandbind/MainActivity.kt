@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding.lifecycleOwner = this
         binding.viewModel = viewModel
     }
 }
