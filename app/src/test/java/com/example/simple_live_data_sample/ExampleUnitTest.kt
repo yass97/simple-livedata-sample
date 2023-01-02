@@ -1,4 +1,4 @@
-package com.example.calclivedataandbind
+package com.example.simple_live_data_sample
 
 import org.junit.Test
 

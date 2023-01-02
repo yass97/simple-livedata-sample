@@ -1,4 +1,4 @@
-package com.example.calclivedataandbind
+package com.example.simple_live_data_sample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

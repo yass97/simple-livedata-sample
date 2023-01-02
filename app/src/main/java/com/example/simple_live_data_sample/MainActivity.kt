@@ -1,10 +1,10 @@
-package com.example.calclivedataandbind
+package com.example.simple_live_data_sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
-import com.example.calclivedataandbind.databinding.ActivityMainBinding
+import com.example.simple_live_data_sample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

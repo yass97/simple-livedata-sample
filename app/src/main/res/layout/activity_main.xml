@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.example.calclivedataandbind.ViewModel" />
+            type="com.example.simple_live_data_sample.ViewModel" />
     </data>
 
     <androidx.appcompat.widget.LinearLayoutCompat
